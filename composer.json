@@ -20,17 +20,19 @@
     "rss": "https://github.com/craftcms/commerce/releases.atom"
   },
   "require": {
-    "craftcms/cms": "dev-feature/tests",
+    "craftcms/cms": "dev-feature/tests#be0ec18771606c7f65ed2827fbebc5de254d7550",
     "dompdf/dompdf": "~0.8.2",
     "moneyphp/money": "^3.1.3",
     "ibericode/vat": "^1.1.2",
-    "phpoffice/phpspreadsheet": "^1.4"
+    "phpoffice/phpspreadsheet": "^1.4",
+    "craftcms/commerce": "2.1.3.1"
   },
   "require-dev": {
     "codeception/codeception": "^2.4",
     "codeception/mockery-module": "~0.2.2",
     "codeception/specify": "~0.4.6",
-    "codeception/verify": "~0.3.3"
+    "codeception/verify": "~0.3.3",
+    "vlucas/phpdotenv": "^2.4.0"
   },
   "autoload": {
     "psr-4": {
