@@ -25,7 +25,7 @@ modules:
             configFile: 'tests/_craft/config/test.php'
             entryUrl: 'https://test.craftcms.dev/'
             entryScript: 'index.php'
-            projectConfig: 'tests/_data/project.yaml'
+            projectConfig: {file: 'tests/_data/project.yaml', once: true}
             modules: []
             migrations: []
             plugins: [{'class': 'craft\commerce\Plugin', 'handle': 'commerce', 'isAtRoot': true}]

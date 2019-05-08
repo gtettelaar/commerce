@@ -22,7 +22,7 @@ system:
   edition: pro
   name: 'ADR Platform'
   live: true
-  schemaVersion: 3.1.27
+  schemaVersion: 3.1.28
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false

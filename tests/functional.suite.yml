@@ -8,5 +8,6 @@
 actor: FunctionalTester
 modules:
     enabled:
-        # add a framework module here
+        - \craft\test\Craft:
+              projectConfig: {file: 'tests/_data/project.yaml', once: true}
         - \Helper\Functional

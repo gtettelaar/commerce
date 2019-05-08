@@ -10,7 +10,6 @@
 return [
     'useProjectConfigFile' => true,
     'devMode'=>true,
-    'cpTrigger' => 'adminustriggerus',
     'siteUrl' => 'https://test.craftcms.dev/',
     'slugWordSeparator' => '--',
     'allowUppercaseInSlug' => true,

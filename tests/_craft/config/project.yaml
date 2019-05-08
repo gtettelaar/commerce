@@ -1,28 +1,28 @@
-dateModified: 1556009219
+dateModified: 1557340878
 plugins:
   commerce:
     edition: 2.1.06
     enabled: true
     schemaVersion: 2.1.06
-routes:
+routes: null
 siteGroups:
   05c96016-eb7d-4aa8-9715-2f0aa36c66a8:
     name: 'ADR Platform'
 sites:
   2fa19d28-c359-4955-8b0d-35a35e3f1128:
     siteGroup: 05c96016-eb7d-4aa8-9715-2f0aa36c66a8
-    name: 'ADR Platform'
+    name: 'Craft test site'
     handle: default
     language: en-US
     hasUrls: true
-    baseUrl: $DEFAULT_SITE_URL
+    baseUrl: 'https://craftcms.com'
     sortOrder: 1
     primary: true
 system:
   edition: pro
   name: 'ADR Platform'
   live: true
-  schemaVersion: 3.1.27
+  schemaVersion: 3.1.28
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
